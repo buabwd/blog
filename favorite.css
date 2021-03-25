@@ -27,14 +27,11 @@ img {
 }
 
 .container {
-    max-width: 1320px;
     margin: 0 auto;
     padding: 0 1.2rem;
 }
 
-.h-head {
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+.review {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
@@ -77,56 +74,14 @@ img {
     opacity: 0.7;
 }
 
-.banner {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.div-text {
     text-align: center;
-    color: #fff;
+    color: rgba(146, 141, 141, 0.575);
+    margin-top: 230px;
 }
 
-.banner-title {
-    font-size: 3rem;
+.text {
+    font-size: 20px;
     font-family: var(--Playfair);
     line-height: 1.2;
 }
-
-.banner-title span {
-    font-family: var(--Playfair);
-    color: var(--exdark);
-}
-
-.banner p {
-    padding: 1rem 0 2rem 0;
-    font-size: 1.2rem;
-    text-transform: capitalize;
-    font-family: var(--Roboto);
-    font-weight: 300;
-    word-spacing: 2px;
-}
-
-.banner form {
-    background: #fff;
-    border-radius: 2rem;
-    padding: 0.6rem 1rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.serch-input {
-    font-family: var(--Roboto);
-    font-size: 1.1rem;
-    width: 100%;
-}
-
-.search-btn {
-    width: 40px;
-    font-size: 1.1rem;
-    color: var(--dark);
-    border: none;
-    background: transparent;
-    outline: 0;
-    cursor: pointer;
-}
-
